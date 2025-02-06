@@ -29,11 +29,12 @@ CORE_DEFAULT_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
 ]
 
 # CUSTOM APPS: Talkspace core apps.
 TALKSPACE_APPS = [
-    "shared"
+    "shared",
 ]
 
 # DJANGO MIDDLEWARE: The default django middleware
